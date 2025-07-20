@@ -271,7 +271,7 @@ async def get_current_page_articles() -> Dict[str, Any]:
                 author = author_elem.text.strip()
 
                 # 获取点赞数
-                like_elem = element.find_element(By.CSS_SELECTOR, ".like-wrapper count")
+                like_elem = element.find_element(By.CSS_SELECTOR, ".footer .like-wrapper .count")
                 like = like_elem.text.strip()
 
                 articles.append({
@@ -337,7 +337,7 @@ async def search_articles(keyword: str) -> Dict[str, Any]:
                 author = author_elem.text.strip()
 
                 # 获取点赞数
-                like_elem = element.find_element(By.CSS_SELECTOR, ".like-wrapper count")
+                like_elem = element.find_element(By.CSS_SELECTOR, ".footer .like-wrapper .count")
                 like = like_elem.text.strip()
 
                 articles.append({

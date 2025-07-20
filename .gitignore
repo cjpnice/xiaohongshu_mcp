@@ -2,3 +2,7 @@ driver
 xiaohongshu_cookies.json
 xiaohongshu_session.pkl
 .idea
+.venv
+.python-version
+pyproject.toml
+uv.lock
