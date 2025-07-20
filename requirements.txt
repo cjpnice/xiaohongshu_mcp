@@ -1,0 +1,5 @@
+fastmcp==2.10.5
+selenium==4.34.2
+selenium_wire==5.1.0
+blinker==1.7.0
+setuptools
